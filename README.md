@@ -27,7 +27,7 @@ Activity
 - How to help solve common mistakes 
 
 ## Workshop 2: Teaching 
-- Why this position matters ([paper-1](https://link.springer.com/article/10.1007/s41979-020-00031-1)
+- Why this position matters ([paper-1])(https://link.springer.com/article/10.1007/s41979-020-00031-1)
 
 "Several of the factors that contribute to STEM retention relate to how faculty teach and the messages they send. Notably, more than 90% of students who left STEM majors mentioned concern about the poor quality of teaching in their introductory college courses (Seymour and Hewitt, 1997). Moreover, large introductory STEM courses have a reputation of being “weed-out” courses that focus on lecture (Mervis, 2011). Students in passive lecture courses report general dissatisfaction with the classroom environment, lack of structure, and impersonal nature of their courses (Cooper and Robinson, 2000).
 

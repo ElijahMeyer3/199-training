@@ -9,9 +9,8 @@ Wrokshop 4: GitHub
 
 - Why
 - What
-- How
+- How (20-25 minutes)
   
-|_____| 20-25 minutes
 - Active component of common past experiences + how to handle them as a TA (20-25 minutes)
 
 

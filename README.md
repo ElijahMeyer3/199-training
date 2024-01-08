@@ -1,9 +1,12 @@
 # 199-training
 
 Workshop 1: Quarto 
-Workshop 2: Teaching 
+
+Workshop 2: Teaching  
+
 Workshop 3: Grading 
-Wrokshop 4: GitHub 
+
+Wrokshop 4: GitHub
 
 ## Workshop structure 
 
@@ -26,20 +29,15 @@ Activity
 - How to identify common mistakes
 - How to help solve common mistakes
 
-exercise1 
-  -- YAML issue 
+exercise1 \
+  -- YAML issue \
   -- label issue 
 
-exercise2
-  -- debugging code 
+exercise2 \
+  -- debugging code \
   -- other code chunk issues 
 
-exercise3 
-  -- other issues (ex typing in a code chunk) 
-  -- how to help with formatting issues 
-      --- how to add the vertical line 
-      --- how to make code not go off the page 
-      --- 
+exercise3 ?
 
   
 ## Workshop 2: Teaching 

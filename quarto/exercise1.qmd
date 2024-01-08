@@ -1,0 +1,85 @@
+---
+title: "Exercise 1"
+  subtitle: "STA 199 - Fall 2023"
+author: Student Name
+format: pdf
+editor: visual
+---
+
+# Instructions
+
+These exercises are created to help you diagnose and fix common Quarto errors students have in STA199. Please complete this exercise by doing the following:
+
+1.  Render the document
+2.  Analyze the error. Practice finding key words or phrases within the error message to help you find the error in the qmd file.
+3.  Fix the error
+
+Repeat steps 1 through 3 until all errors are fixed and the document
+
+# Packages
+
+```{r}
+#| label: packages
+#| warning: false 
+#| message: false
+
+library(tidyverse)
+```
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+#| label: exercise1
+1 + 1
+```
+
+You can add options to executable code like this
+
+```{r}
+#| label: exercise2
+2 * 2
+```
+
+```{r}
+#| label exercise2
+3 * 4
+```
+
+```{r}
+label exercise3
+5 * 7
+```
+
+## Solution
+
+Error 1: YAMLError: bad indentation of a mapping entry at line 3, column 3: subtitle: "STA 199 - Fall 2023"
+
+Explanation:
+
+Fix:
+
+Error 2: Error in parse_block(g\[-1\], g\[1\], params.src, markdown_mode) : Duplicate chunk label 'exercise1', which has been used for the chunk:
+
+Explanation:
+
+Fix:
+
+Error 3: YAML value label exercise3 must be an object
+
+Explanation:
+
+Fix:
+
+Error 4: Quitting from lines 58-60 \[unnamed-chunk-5\] (exercise1.qmd) Error in `parse()`: ! <text>:1:7: unexpected symbol
+
+Explanation:
+
+Fix:
+
+Useful tool [here](https://nickch-k.github.io/DataCommSlides/Lecture_04_Common_R_Problems.html)

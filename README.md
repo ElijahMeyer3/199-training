@@ -31,7 +31,7 @@ Activity
 
 Exercise structure: 
 
--- Go through and identify errors individually. 
+-- Go through and identify errors individually. \
 -- Class discussion about how to identify errors + how to pick key words & phrases from error messages. 
 
 Pair up: 

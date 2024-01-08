@@ -27,7 +27,7 @@ Activity
 - How to help solve common mistakes
 
 exercise1 
-  -- YAML issue 
+  -- YAML issue \
   -- label issue 
 
 exercise2

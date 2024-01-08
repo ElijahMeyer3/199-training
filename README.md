@@ -31,11 +31,11 @@ Activity
 
 exercise1 \
   -- YAML issue \
-  -- label issue \
+  -- label issue 
 
 exercise2 \
   -- debugging code \
-  -- other code chunk issues \
+  -- other code chunk issues 
 
 exercise3 ?
 

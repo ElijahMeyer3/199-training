@@ -29,6 +29,17 @@ Activity
 - How to identify common mistakes
 - How to help solve common mistakes
 
+Exercise structure: 
+
+-- Go through and identify errors individually. 
+-- Class discussion about how to identify errors + how to pick key words & phrases from error messages. 
+
+Pair up: 
+
+-- Role1 - TA; Role2 - student
+
+Pick 1 error and practice explaining the error to a student that has never used quarto before. Switch roles. 
+
 exercise1 \
   -- YAML issue \
   -- label issue 
@@ -38,6 +49,8 @@ exercise2 \
   -- other code chunk issues 
 
 exercise3 ?
+
+
 
   
 ## Workshop 2: Teaching 

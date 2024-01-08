@@ -25,6 +25,8 @@ Wrokshop 4: GitHub
 - How do students use Quarto?
 - Common mistakes when first learning Quarto
 
+Make TAs understand the "why" so they can communicate the "why" to their students
+
 Activity 
 - How to identify common mistakes
 - How to help solve common mistakes

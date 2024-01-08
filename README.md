@@ -24,8 +24,24 @@ Wrokshop 4: GitHub
 
 Activity 
 - How to identify common mistakes
-- How to help solve common mistakes 
+- How to help solve common mistakes
 
+exercise1 
+  -- YAML issue 
+  -- label issue 
+
+exercise2
+  -- debugging code 
+  -- other code chunk issues 
+
+exercise3 
+  -- other issues (ex typing in a code chunk) 
+  -- how to help with formatting issues 
+      --- how to add the vertical line 
+      --- how to make code not go off the page 
+      --- 
+
+  
 ## Workshop 2: Teaching 
 - Why this position matters ([paper-1])(https://link.springer.com/article/10.1007/s41979-020-00031-1)
 

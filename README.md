@@ -1,9 +1,12 @@
 # 199-training
 
-Workshop 1: Quarto \
-Workshop 2: Teaching \ 
-Workshop 3: Grading \
-Wrokshop 4: GitHub \
+Workshop 1: Quarto 
+
+Workshop 2: Teaching  
+
+Workshop 3: Grading 
+
+Wrokshop 4: GitHub
 
 ## Workshop structure 
 

@@ -26,20 +26,15 @@ Activity
 - How to identify common mistakes
 - How to help solve common mistakes
 
-exercise1 
+exercise1 \
   -- YAML issue \
-  -- label issue 
+  -- label issue \
 
-exercise2
-  -- debugging code 
-  -- other code chunk issues 
+exercise2 \
+  -- debugging code \
+  -- other code chunk issues \
 
-exercise3 
-  -- other issues (ex typing in a code chunk) 
-  -- how to help with formatting issues 
-      --- how to add the vertical line 
-      --- how to make code not go off the page 
-      --- 
+exercise3 ?
 
   
 ## Workshop 2: Teaching 

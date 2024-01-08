@@ -38,7 +38,7 @@ Pair up:
 
 -- Role1 - TA; Role2 - student
 
-Pick 1 error and practice explaining the error to a student that has never used quarto before. Switch roles. 
+Pick 1 error and practice explaining the error to a student that has never used quarto before. Switch roles. Encourage student to ask questions ("why") 1-2 times during TA explanation.
 
 exercise1 \
   -- YAML issue \

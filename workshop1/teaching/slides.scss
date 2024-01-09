@@ -11,6 +11,7 @@ $code-block-font-size: 0.7em;
 
 /*-- scss:rules --*/
 
+
 details>summary {
   font-size: 0.75em;
 }
@@ -21,12 +22,18 @@ details>summary {
 }
 
 #title-slide .author {
-  text-align: right;
+  text-align: center;
 }
 
 #title-slide .institute {
-  text-align: right;
+  text-align: center;
 }
+
+#title-slide .date {
+  text-align: left;
+
+}
+
 
 .small {
   font-size: 0.75em;

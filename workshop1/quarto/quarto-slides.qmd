@@ -1,0 +1,104 @@
+---
+title: "TA Training - STA199"
+subtitle: "Quarto"
+title-slide-attributes:
+  data-background-image: /images/lines.png
+  data-background-size: 25% , 31%
+  data-background-position: left , 62% 18% 
+author: "Dr. Elijah Meyer <br> Eli Gnesin"
+institute: "Duke University"
+date: now
+format: 
+  revealjs:
+    incremental: true 
+    slide-number: c
+    show-slide-number: all
+    theme: [dark, slides.scss]
+---
+
+## The WHAT and WHY 
+
+If you can articulate why we use Quarto, students are more likely to "buy in" and learn it!
+
+- Reproduciability 
+
+- Collaboration 
+
+- Quarto supports many languages such as R, Python, Julia, etc. 
+
+
+## Quarto vs R-Markdown 
+
+Rmarkdown:
+
+```{r}
+#| eval: false
+#| echo: true
+knitr::opts_chunk$set(echo = FALSE)  
+```
+
+Quarto:
+
+```{r}
+#| eval: false
+#| echo: true
+title: "Project Title" 
+execute:
+  echo: false
+
+```
+
+Quarto: easier to get started and attempts to "smooth" the edges of R-markdown
+
+# What to be aware of as a TA teaching Quarto to Students
+
+## Visual vs Source Tab
+
+::: {#fig-R2 layout-ncol="2"}
+![](images/source2.png){#fig-s}
+
+![](images/visual2.png){#fig-v}
+
+Source (a) vs Visual (b)
+:::
+
+## Quarto Layout{.smaller}
+
+-- How to Render a document 
+
+-- What is a YAML
+
+-- Where to write code
+
+-- Where to write text 
+
+![](images/quarto2.png){fig-align="center"}
+
+
+## "My Document won't Render"
+
+Throughout the semester, you will be asked a variety of Quarto questions from students.
+
+We are going to practice: 
+
+-- Identifying errors 
+
+-- Fixing errors 
+
+-- How we may teach these fixes to students
+
+# exercise1 (5 minutes)
+
+# Questions?
+
+# exercise2 
+
+# Questions?
+
+## In Summary 
+
+-- Help students help themselves 
+
+-- Show patience
+
+-- Informative error messages

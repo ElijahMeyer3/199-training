@@ -1,0 +1,8 @@
+---
+title: "TA Training"
+subtitle: "Active Learning + Interacting with Students"
+date: "January 12 2024"
+format: revealjs
+---
+
+## Introductions 

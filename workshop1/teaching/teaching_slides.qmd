@@ -17,4 +17,87 @@ format:
 bibliography: references.bib
 ---
 
-## Introductions 
+# Introductions 
+
+## Outline 
+
+-- Teaching
+
+    --- Active Learning 
+    --- Interacting with Students 
+
+-- Quarto
+
+    --- How we use Quarto in 199
+    --- Common Student Mistakes
+
+## During the workshop 
+
+-- Share out 
+
+-- Small + Large group discussions
+
+-- Activities 
+
+## TAs Matter{.center}
+
+*"Several of the factors that contribute to STEM retention relate to how faculty teach and the messages they send. Notably, more than 90% of students who left STEM majors mentioned concern about the poor quality of teaching in their introductory college courses (Seymour and Hewitt, 1997)".* 
+
+## TAs Matter{.center}
+
+*"Several of the factors that contribute to STEM retention relate to how faculty teach and the <span style="color:blue;">messages they send</span>. Notably, more than 90% of students who left STEM majors mentioned concern about the poor quality of teaching in their introductory college courses (Seymour and Hewitt, 1997)".* 
+
+## How to send the right message 
+
+- Be on time (lab + office hours)
+
+- Communicate with your students 
+
+- Set them up to be successful 
+
+## Approachability
+
+**Breakout Room (5 minutes)**
+
+Recall an instructor who you felt comfortable approaching during lab/office hours and one who you did not. Why were you comfortable approaching the one teacher, but not the other?
+
+# Discussion
+
+## Approachability (Key Take-Aways)
+
+How and what we communicate <span style="color:blue;">verbally</span> and <span style="color:blue;">non-verbally</span> matter!
+
+It’s not only what you say, but also <span style="color:blue;">how</span> you communicate it
+
+Difficult situations will arise when interacting with students.
+
+-- How we respond verbally and non-verbally matters!
+
+-- Instructors will handle different situations differently 
+
+     --- Be flexible and adapt to the situation and context you encounter.
+
+
+## TAs Matter{.center}
+
+*Moreover, large introductory STEM courses have a reputation of being “weed-out” courses that focus on lecture (Mervis, 2011). Students in passive lecture courses report general dissatisfaction with the classroom environment, lack of structure, and impersonal nature of their courses (Cooper and Robinson, 2000).* 
+
+
+
+
+
+
+## Reflection 
+
+Reflect and share on how the first day(s) of class went.
+
+Identify what worked on the first day(s) of class. 
+
+Identify strategies for addressing any concerns that came up on the first day(s) of class. 
+
+
+## During Lab 
+
+What are productive strategies an instructor uses? Unproductive strategies?
+
+What are productive strategies students use? Unproductive strategies?

@@ -1,6 +1,6 @@
 ---
 title: "Exercise 1"
-  subtitle: "STA 199 - Fall 2023"
+subtitle: "STA 199 - Fall 2023"
 author: Student Name
 format: pdf
 editor: visual
@@ -52,7 +52,7 @@ You can add options to executable code like this
 ```
 
 ```{r}
-label exercise3
+#| label: exercise3
 5 * 7
 ```
 
@@ -60,26 +60,35 @@ label exercise3
 
 Error 1: YAMLError: bad indentation of a mapping entry at line 3, column 3: subtitle: "STA 199 - Fall 2023"
 
-Explanation:
+Fix: Move indent back
 
-Fix:
+Explanation: AWV 
 
-Error 2: Error in parse_block(g\[-1\], g\[1\], params.src, markdown_mode) : Duplicate chunk label 'exercise1', which has been used for the chunk:
+---
 
-Explanation:
+Error 2: ! <text>:1:7: unexpected symbol
+1: label exercise3
 
-Fix:
+Fix: Add #|
 
-Error 3: YAML value label exercise3 must be an object
+Explanation: AWV
 
-Explanation:
+---
 
-Fix:
+Error 3: The value label exercise2 is of type string.
 
-Error 4: Quitting from lines 58-60 \[unnamed-chunk-5\] (exercise1.qmd) Error in `parse()`: ! <text>:1:7: unexpected symbol
+Fix: Add :
 
-Explanation:
+Explanation: AWV
 
-Fix:
+---
+
+
+Error 4: Error in parse_block(g\[-1\], g\[1\], params.src, markdown_mode) : Duplicate chunk label 'exercise2', which has been used for the chunk:
+
+Fix: Change label to something different 
+
+Explanation: AWV
+
 
 Useful tool [here](https://nickch-k.github.io/DataCommSlides/Lecture_04_Common_R_Problems.html)

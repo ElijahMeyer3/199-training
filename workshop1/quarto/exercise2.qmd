@@ -6,26 +6,22 @@ format: pdf
 editor: visual
 ---
 
-# Instructions 
+# Instructions
 
 This exercise is a fabricated student homework submission. They claim that they can not get their document to render and they do not know why.
 
 1.  Render the document
 2.  Analyze the error. Practice finding key words or phrases within the error message to help you find the error in the qmd file.
-3.  Fix the error so that the plot appears in the *Plots* window
+3.  Fix the error
+4.  Think critically on how you would explain this error to a student
 
-*3-5 minutes*
+Repeat steps 1 through 4 until all errors are fixed and the document
 
-They come back for help a second time, and say that their document will not render despite all the code working. 
+**Note** The purpose is not to solve multiple errors at once. The purpose is to practice identifying the error message with the error, and critically thinking how you could TEACH this fix to your students.
 
-1.  Render the document
-2.  Analyze the error. Practice finding key words or phrases within the error message to help you find the error in the qmd file.
-3. Fix the error so the plot renders. 
+*Together after above exercise is complete*
 
-*3-5 minutes*
-
-Students will need continued practice writing *clean code*. The style guide can be found here. We can observe in the rendered document that the code does not look great. Together, let's clean up the coe using the style guide [here](https://style.tidyverse.org/ggplot2.html)
-
+Students will need continued practice writing *clean code*. The style guide can be found here. We can observe in the rendered document that the code does not look great. Together, let's clean up the code using the style guide [here](https://style.tidyverse.org/ggplot2.html)
 
 # HW-1
 
@@ -41,7 +37,7 @@ library(tidyverse)
 library(openintro)
 ```
 
-# Data 
+# Data
 
 For the following two exercises you will work with data on houses that were sold in the Duke Forest neighborhood of Durham, NC in November 2020. The duke_forest dataset comes from the openintro package. You can see a list of the variables on the package website or by running ?duke_forest in your console.
 
@@ -62,7 +58,8 @@ Luckily, you can help them answer this question with data visualization!
 #| label: price-garage
  
 duke_forest |>
-  mutate(garage = if_else(str_detect(parking, "Garage"), "Garage", "No garage")) |> ggplot(aes(x = price, fill = garage)) 
+  mutate(garage = if_else(str_detect(parking, "Garage"), "Garage", "No garage")) |>
+ggplot(aes(x = price, fill = garage)) 
   geom_histogram() + facet_wrap(~garage, ncol = 1) +
   labs(
     x = Price in $,
@@ -72,26 +69,42 @@ duke_forest |>
 Based on this visualization, having a garage does not appear to “make a difference”.
 ```
 
-**Error1** 
+## Notes
 
-**Explanation**
+Error 1:
 
-**Fix**
+Fix:
 
-**Error2** 
+Explanation:
 
-**Explanation**
+------------------------------------------------------------------------
 
-**Fix**
+Error 2:
 
-**Error3** 
+Fix:
 
-**Explanation**
+Explanation:
 
-**Fix**
+------------------------------------------------------------------------
 
+Error 3:
 
--   Then, facet by `garage` and use different colors for the two facets.
--   Choose an appropriate binwidth and decide whether a legend is needed, and turn it off if not.
--   Include informative title and axis labels.
--   Finally, include a brief (2-3 sentence) narrative comparing the distributions of prices of Duke Forest houses that do and don't have garages (for example comparing the center, spread and outliers of the distributions). Your narrative should touch on whether having a garage "makes a difference" in terms of the price of the house.
+Fix:
+
+Explanation:
+
+------------------------------------------------------------------------
+
+Error 4:
+
+Fix:
+
+Explanation:
+
+------------------------------------------------------------------------
+
+Styling Code
+
+--
+
+--

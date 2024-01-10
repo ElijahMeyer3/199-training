@@ -8,13 +8,16 @@ editor: visual
 
 # Instructions
 
-These exercises are created to help you diagnose and fix common Quarto errors students have in STA199. Please complete this exercise by doing the following:
+This exercise is created to help you diagnose and fix common Quarto errors students have in STA199. Please complete this exercise by doing the following:
 
 1.  Render the document
 2.  Analyze the error. Practice finding key words or phrases within the error message to help you find the error in the qmd file.
 3.  Fix the error
+4.  Think critically on how you would explain this error to a student
 
-Repeat steps 1 through 3 until all errors are fixed and the document
+Repeat steps 1 through 4 until all errors are fixed and the document
+
+**Note** The purpose is not to solve multiple errors at once. The purpose is to practice identifying the error message with the error, and critically thinking how you could TEACH this fix to your students.
 
 # Packages
 
@@ -42,7 +45,7 @@ When you click the **Render** button a document will be generated that includes 
 You can add options to executable code like this
 
 ```{r}
-#| label: exercise2
+#| label: exercise1
 2 * 2
 ```
 
@@ -52,34 +55,42 @@ You can add options to executable code like this
 ```
 
 ```{r}
-label exercise3
+label: exercise3
 5 * 7
 ```
 
-## Solution
+## Notes
 
-Error 1: YAMLError: bad indentation of a mapping entry at line 3, column 3: subtitle: "STA 199 - Fall 2023"
-
-Explanation:
+Error 1:
 
 Fix:
 
-Error 2: Error in parse_block(g\[-1\], g\[1\], params.src, markdown_mode) : Duplicate chunk label 'exercise1', which has been used for the chunk:
-
 Explanation:
+
+------------------------------------------------------------------------
+
+Error 2:
 
 Fix:
 
-Error 3: YAML value label exercise3 must be an object
-
 Explanation:
+
+------------------------------------------------------------------------
+
+Error 3:
 
 Fix:
 
-Error 4: Quitting from lines 58-60 \[unnamed-chunk-5\] (exercise1.qmd) Error in `parse()`: ! <text>:1:7: unexpected symbol
+Explanation:
+
+------------------------------------------------------------------------
+
+Error 4:
+
+Fix:
 
 Explanation:
 
-Fix:
+------------------------------------------------------------------------
 
 Useful tool [here](https://nickch-k.github.io/DataCommSlides/Lecture_04_Common_R_Problems.html)

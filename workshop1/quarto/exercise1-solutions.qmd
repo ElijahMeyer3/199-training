@@ -62,18 +62,17 @@ Error 1: YAMLError: bad indentation of a mapping entry at line 3, column 3: subt
 
 Fix: Move indent back
 
-Explanation: AWV 
+Explanation: AWV
 
----
+------------------------------------------------------------------------
 
-Error 2: ! <text>:1:7: unexpected symbol
-1: label exercise3
+Error 2: ! <text>:1:7: unexpected symbol 1: label exercise3
 
-Fix: Add #|
+Fix: Add #\|
 
 Explanation: AWV
 
----
+------------------------------------------------------------------------
 
 Error 3: The value label exercise2 is of type string.
 
@@ -81,14 +80,12 @@ Fix: Add :
 
 Explanation: AWV
 
----
-
+------------------------------------------------------------------------
 
 Error 4: Error in parse_block(g\[-1\], g\[1\], params.src, markdown_mode) : Duplicate chunk label 'exercise2', which has been used for the chunk:
 
-Fix: Change label to something different 
+Fix: Change label to something different
 
 Explanation: AWV
-
 
 Useful tool [here](https://nickch-k.github.io/DataCommSlides/Lecture_04_Common_R_Problems.html)

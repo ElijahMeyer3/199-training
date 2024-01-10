@@ -95,7 +95,27 @@ We are going to practice:
 
 # Questions?
 
+## Other Common Mistakes 
+
+-- Saving variables
+
+-- Overwriting variables / data sets 
+
+```{r}
+#| eval: false
+
+data <- data |>
+  summarize(mean(col1))
+
+```
+
+-- Missing `|>`
+
+-- `==` vs `%in%`
+
 ## In Summary 
+
+Discovery 
 
 -- Help students help themselves 
 

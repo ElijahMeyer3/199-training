@@ -393,7 +393,7 @@
 
 <section id="title-slide" data-background-image="/images/lines.png" data-background-position="left , 62% 18%" data-background-size="25% , 31%" class="quarto-title-block center">
   <h1 class="title">TA Training - STA199</h1>
-  <p class="subtitle">Quarto</p>
+  <p class="subtitle">Teaching Quarto</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -430,11 +430,6 @@ Dr.&nbsp;Elijah Meyer <br> Eli Gnesin
 <span id="cb2-3"><a href=""></a>  echo<span class="sc">:</span> false</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Quarto: easier to get started and attempts to “smooth” the edges of R-markdown</p>
-</section>
-<section>
-<section id="what-to-be-aware-of-as-a-ta-teaching-quarto-to-students" class="title-slide slide level1 center">
-<h1>What to be aware of as a TA teaching Quarto to Students</h1>
-
 </section>
 <section id="visual-vs-source-tab" class="slide level2">
 <h2>Visual vs Source Tab</h2>
@@ -476,6 +471,7 @@ Figure&nbsp;1: Source (a) vs Visual (b)
 </section>
 <section id="quarto-layout" class="slide level2 smaller">
 <h2>Quarto Layout</h2>
+<p>These are not obvious questions to those who have never coded before</p>
 <p>– How to Render a document</p>
 <p>– What is a YAML</p>
 <p>– Where to write code</p>
@@ -488,10 +484,11 @@ Figure&nbsp;1: Source (a) vs Visual (b)
 <p>We are going to practice:</p>
 <p>– Identifying errors</p>
 <p>– Fixing errors</p>
-<p>– How we may teach these fixes to students</p>
-</section></section>
-<section id="exercise1-5-minutes" class="title-slide slide level1 center">
-<h1>exercise1 (5 minutes)</h1>
+<p>– <strong>How we may teach these fixes to students</strong></p>
+<p>Goal: Helping students become learners…. not fixing the errors for them</p>
+</section>
+<section id="exercise1" class="title-slide slide level1 center">
+<h1>exercise1</h1>
 
 </section>
 
@@ -514,6 +511,10 @@ Figure&nbsp;1: Source (a) vs Visual (b)
 <h2>Other Common Mistakes</h2>
 <p>– Saving variables</p>
 <p>– Overwriting variables / data sets</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href=""></a>data <span class="ot">&lt;-</span> data <span class="sc">|&gt;</span></span>
+<span id="cb3-2"><a href=""></a>  <span class="fu">summarize</span>(<span class="fu">mean</span>(col1))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 <p>– Missing <code>|&gt;</code></p>
 <p>– <code>==</code> vs <code>%in%</code></p>
 </section>
@@ -522,7 +523,7 @@ Figure&nbsp;1: Source (a) vs Visual (b)
 <p>Discovery</p>
 <p>– Help students help themselves</p>
 <p>– Show patience</p>
-<p>– Informative error messages</p>
+<p>– Use informative error messages</p>
 
 </section><div class="quarto-auto-generated-content">
 <div class="footer footer-default">

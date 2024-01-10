@@ -1,6 +1,6 @@
 ---
 title: "TA Training - STA199"
-subtitle: "Quarto"
+subtitle: "Teaching Quarto"
 title-slide-attributes:
   data-background-image: /images/lines.png
   data-background-size: 25% , 31%
@@ -50,8 +50,6 @@ execute:
 
 Quarto: easier to get started and attempts to "smooth" the edges of R-markdown
 
-# What to be aware of as a TA teaching Quarto to Students
-
 ## Visual vs Source Tab
 
 ::: {#fig-R2 layout-ncol="2"}
@@ -63,6 +61,8 @@ Source (a) vs Visual (b)
 :::
 
 ## Quarto Layout{.smaller}
+
+These are not obvious questions to those who have never coded before
 
 -- How to Render a document 
 
@@ -85,9 +85,11 @@ We are going to practice:
 
 -- Fixing errors 
 
--- How we may teach these fixes to students
+-- **How we may teach these fixes to students**
 
-# exercise1 (5 minutes)
+Goal: Helping students become learners.... not fixing the errors for them 
+
+# exercise1 
 
 # Questions?
 
@@ -103,6 +105,7 @@ We are going to practice:
 
 ```{r}
 #| eval: false
+#| echo: true
 
 data <- data |>
   summarize(mean(col1))
@@ -121,4 +124,4 @@ Discovery
 
 -- Show patience
 
--- Informative error messages
+-- Use informative error messages

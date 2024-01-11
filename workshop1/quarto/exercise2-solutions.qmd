@@ -19,7 +19,6 @@ Repeat steps 1 through 4 until all errors are fixed and the document
 
 **Note** The purpose is not to solve multiple errors at once. The purpose is to practice identifying the error message with the error, and critically thinking how you could TEACH this fix to your students.
 
-
 *Together after above exercise is complete*
 
 Students will need continued practice writing *clean code*. The style guide can be found here. We can observe in the rendered document that the code does not look great. Together, let's clean up the code using the style guide [here](https://style.tidyverse.org/ggplot2.html)
@@ -69,14 +68,11 @@ ggplot(aes(x = price, fill = garage)) +
   
 ```
 
-Based on this visualization, having a garage does not appear to “make a difference”.
+Based on this visualization, having a garage does not appear to "make a difference".
 
+## Notes
 
-## Notes 
-
-Error 1: ! <text>:5:15: unexpected 'in'
-   labs(
-     x = Price in
+Error 1: ! <text>:5:15: unexpected 'in' labs( x = Price in
 
 Fix: put quotes around strings of text
 
@@ -84,8 +80,7 @@ Explanation:
 
 ------------------------------------------------------------------------
 
-Error 2: ! <text>:9:7: unexpected symbol
-Based on
+Error 2: ! <text>:9:7: unexpected symbol Based on
 
 Fix: Remove text from code chunk
 
@@ -93,8 +88,7 @@ Explanation:
 
 ------------------------------------------------------------------------
 
-Error 3: Error in `ggplot()`:
-! could not find function "ggplot"
+Error 3: Error in `ggplot()`: ! could not find function "ggplot"
 
 Fix: Change eval = T; remove eval = ; tell students to library packages
 
@@ -102,8 +96,7 @@ Explanation:
 
 ------------------------------------------------------------------------
 
-Error 4: ! Cannot add <ggproto> objects together
-i Did you forget to add this object to a <ggplot> object?
+Error 4: ! Cannot add <ggproto> objects together i Did you forget to add this object to a <ggplot> object?
 
 Fix: add a +
 
@@ -111,13 +104,8 @@ Explanation:
 
 ------------------------------------------------------------------------
 
-Styling Code: 
+Styling Code:
 
--- proper indentation 
+-- proper indentation
 
 -- new line after +
-
-
-
-
-

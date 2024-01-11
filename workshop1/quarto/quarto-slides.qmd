@@ -85,7 +85,7 @@ We are going to practice:
 
 -- Fixing errors 
 
--- **How we may teach these fixes to students**
+-- **How we teach these fixes to students**
 
 Goal: Helping students become learners.... not fixing the errors for them 
 

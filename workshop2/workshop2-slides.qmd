@@ -14,5 +14,283 @@ format:
     slide-number: c
     show-slide-number: all
     theme: [dark, slides.scss]
-#bibliography: references2.bib
+bibliography: reference2.bib
 ---
+
+## Outline 
+
+```{r}
+#| echo: false
+library(tidyverse)
+```
+
+
+-- Grading
+
+    --- Standard Based Grading
+    --- Grading Questions 
+    --- Feedback 
+    
+
+-- GitHub
+
+    --- Messaging
+    --- 199 Discussion Points
+    
+    
+## During the workshop 
+
+This is a space to talk and think critically about teaching
+
+-- Breakout rooms 
+
+-- Group discussions
+
+-- Activities 
+
+## Grading Practices
+
+Ensure every student has the same opportunity to earn their grade
+
+Ensure students are well prepared for the follow up courses 
+
+Help your instructor identify common misunderstandings 
+
+## Types of Grading 
+
+-- Points Based (Traditional)
+
+-- Standards Based Grading 
+
+## Standards Based Grading 
+
+Categorize work based on question or concept 
+
+![](images/sbg.png){fig-align="center"}
+## Why 
+
+[TAs] grading practices can shape students’ approaches to problem solving and learning [@marshman]
+
+-- Provide meaning to the grade 
+
+-- Help students reflect on their work 
+
+-- Avoid students feeling "nickle and dimed"
+
+-- Help you provide more meaningful feedback
+
+## Example 
+
+```{r}
+
+mtcars |>
+  ggplot(
+    aes(x = mpg, y = disp)
+  ) + 
+  geom_point() + 
+  labs(title = "mtcars scatterplot")
+
+```
+
+-- Traditional: *-1 for no informative labels* 
+
+- "That is really picky .... my plot is correct" 
+
+## Example 
+
+```{r}
+mtcars |>
+  ggplot(
+    aes(x = mpg, y = disp)
+  ) + 
+  geom_point() + 
+  labs(title = "mtcars scatterplot")
+```
+
+-- Standard Based (4 - 0): *3* Can link the idea of informative labels satisfying *excellence*
+
+
+## Meaningful Feedback
+
+Links between incomplete, inconsistent, or vague feedback and negative emotional responses[@shields]
+
+Note: Feedback also needs to be on time!
+
+# What is the purpose of student feedback?
+
+## Feedback Example{.smaller} 
+
+Question on Simulation: *In as much detail as possible, DESCRIBE the simulation scheme for*
+
+*(a) conducting a hypothesis test for evaluating whether the average air pollution are different between the United States and Canada.*
+
+Solution: **Take all air pollution values from US and Canada, and mix them all together. Randomly shuffle observations into new US and Canada groups of the same sizes as the original US (842) and Canada group (155). Next, take the mean air pollution for each group, and subtract them. Do this process a large amount of times to create a null distribution.**
+
+## Feedback Example{.smaller} 
+
+What questions may the student have after receiving this type of feedback? 
+
+**Student Answer**: To determine whether the average air pollution levels are different between the US and Canada, we can conduct a hypothesis test. The first step in our process is to define our null and alternative hypothesis. We could then specifically use the simulation scheme of a bootstrap technique. This involves resampling the data and calculating the mean differences for both the US and Canada from the resampled data.
+
+**Feedback**: 
+
+-- missing mixing data together or assume the null hypothesis to be true (-1)
+
+-- missing randomly shuffle or permute observations to two new groups (-1)
+
+-- missing size 842 and 155 (-1)
+
+## Your Turn 
+
+-- Solo: Practice writing your own feedback
+
+-- Breakout Rooms: Go over feedback written with group. What did you write? Why? What strategies did you use to come up with this type of feedback?  
+
+-- 1-2 individuals share out
+
+## Things to think about 
+
+-- Your feedback is a critical learning component of any course
+
+-- Think about your feedback as a teaching tool 
+
+-- Put yourself in the student's shoes 
+
+-- Clearly communicate expectations and the *why* behind them
+
+-- Help them discover 
+
+-- Think about *tone* 
+
+## Tone of Feedback 
+
+Students tend to respond best to feedback that’s **candid, empathetic, supportive, encouraging, constructive, and respectful** [@Enquist1996CritiquingLS; @fink; @Gott]. By contrast, students respond worse to feedback that’s interpreted as **sarcastic, cruel, accusatory, condescending, disrespectful, pessimistic, or patronizing** [@Enquist1999CritiquingAE; @rup].
+
+I will also add on *intimidating* from my experiences... 
+
+
+## Example 
+
+How can these feedback statements be improved? 
+
+- "You need to understand that a p-value can not be negative" 
+
+- "ALWAYS INCLUDE INFORMATIVE TITLES ON A PLOT" 
+
+- "Read the book so you can better understand this concept" 
+
+
+# In-person
+
+## In-person 
+
+We need to be able to clearly and effectively communicate feedback to students in-person... and may be uncomfortable at first...
+
+-- Explain your motives 
+
+-- Normalize constructive criticism 
+
+-- Prepare students emotionally 
+
+-- Have a conversation 
+
+[@Fore]
+
+## Growth Mindset 
+
+People believe that they can learn, achieve, and break through academic barriers through hard work, dedication, and learning with others. 
+
+-- "Statistical growth mindset associates with achievement via engagement in statistical courses" 
+
+-- "Statistical growth mindset's effectiveness on learning amid challenges is partially affirmed" 
+
+[@hong]
+
+## Growth Mindset
+
+We can yelp instill this mindset to our students in feedback. 
+
+-- "Yet"
+
+-- Embrace mistakes and challenges as opportunities 
+
+-- Change student language 
+
+-- Give your personal examples 
+
+[@Parrish_2022]
+
+
+## Wrap Up{.smaller} 
+
+-- Feedback matters... and the rubric is not enough 
+
+-- Feedback is critical for the educational experience
+
+-- Think about what questions students may have 
+
+-- Are you providing enough information so student can learn? 
+
+-- Are you providing / suggesting in-class resources? 
+
+-- Are you making them think? (my personal favorite)
+
+-- Ask questions in the form of feedback to help students discover 
+
+-- Tone 
+
+-- Growth Mindset 
+
+# Questions?
+
+# GitHub 
+
+## Why GitHub 
+
+From my experience, this is the most important part of introducing GitHub to a course 
+
+-- **Real world** collaboration 
+
+-- Opportunity to practice your communication skills 
+
+# Why not Google Docs? 
+
+## 
+
+![](images/commitpage.png){fig-align="center"}
+
+
+## 
+
+![](images/changes.png){fig-align="center"}
+
+## Students & GitHub 
+
+-- Merge conflicts are interpreted as always bad
+
+-- Students avoiding merge conflicts have a harder time fixing them 
+
+-- Students tend to use Google docs or other collaborative spaces 
+
+## Suggestions 
+
+-- Help students understand if their error is Github, Quarto, or Code related. This may seem trivial to you, but this is critical when working with introductory students 
+
+-- Walk through merge conflicts with students in office hours 
+
+-- Reach out for help with Git (Slack; Head TA; Instructor)
+
+## Suggestions & Resources 
+
+-- Students commit and push at the start of the semester, but don't use pull until group work. Introduce pull to them early 
+
+-- JSON merge conflict 
+
+## References
+
+
+
+
+
+
+

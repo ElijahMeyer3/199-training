@@ -1,0 +1,18 @@
+---
+title: "TA Training - STA199"
+subtitle: "Grading + GitHub"
+title-slide-attributes:
+  data-background-image: /images/lines.png
+  data-background-size: 25% , 31%
+  data-background-position: left , 62% 18% 
+author: "Dr. Elijah Meyer <br> Eli Gnesin"
+institute: "Duke University"
+date: now
+format: 
+  revealjs:
+    incremental: true 
+    slide-number: c
+    show-slide-number: all
+    theme: [dark, slides.scss]
+#bibliography: references2.bib
+---

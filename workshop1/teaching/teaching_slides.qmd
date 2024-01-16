@@ -28,7 +28,7 @@ bibliography: references.bib
 
 -- Quarto
 
-    --- How we teach Quarto in 199
+    --- How we Teach Quarto in 199
     --- Common Student Mistakes
 
 ## During the workshop 

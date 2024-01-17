@@ -32,7 +32,7 @@ library(tidyverse)
     --- Feedback 
     
 
--- GitHub
+-- GitHub (If Time)
 
     --- Messaging
     --- 199 Discussion Points
@@ -55,6 +55,8 @@ Ensure every student has the same opportunity to earn their grade
 Ensure students are well prepared for the follow up courses 
 
 Help your instructor identify common misunderstandings 
+
+# TA Perspective 
 
 ## Types of Grading 
 

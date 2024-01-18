@@ -1,6 +1,6 @@
 ---
 title: "TA Training - STA199"
-subtitle: "Grading + GitHub"
+subtitle: "Grading, Feedback and GitHub "
 title-slide-attributes:
   data-background-image: /images/lines.png
   data-background-size: 25% , 31%
@@ -27,9 +27,8 @@ library(tidyverse)
 
 -- Grading
 
-    --- Standard Based Grading
-    --- Grading Questions 
-    --- Feedback 
+    --- Types of Grading
+    --- Feedback + Communication 
     
 
 -- GitHub (If Time)
@@ -48,15 +47,59 @@ This is a space to talk and think critically about teaching
 
 -- Activities 
 
-## Grading Practices
+## Grading 
 
-Ensure every student has the same opportunity to earn their grade
+It's harder than you think.... 
 
-Ensure students are well prepared for the follow up courses 
+<span style="color:blue;">Consistency and communication</span> are key so we...
 
-Help your instructor identify common misunderstandings 
+-- ensure every student has the same opportunity to earn their grade
+
+-- ensure students are well prepared for the follow up courses 
+
+-- help your instructor identify common misunderstandings 
+
+
+## Grading
+
+-- Frustration and disengagement 
+
+-- Lack of trust 
+
+-- Further emphasis on grades
+
 
 # TA Perspective 
+
+## Grading Tips{.smaller} 
+
+-- Follow the rubric
+
+-- Think holistically 
+
+```{r}
+#| eval: false
+#| echo: true
+
+library(tidyverse)
+
+mtcars |> 
+  ggplot(
+    aes(x = disp)
+  ) + 
+  geom_histogram()
+
+# vs 
+
+mtcars |>
+  ggplot() + 
+  geom_histogram(
+    aes(x = disp)
+  )
+```
+
+- and for less obvious situations..... ask / post / communicate. 
+
 
 ## Types of Grading 
 
@@ -69,6 +112,7 @@ Help your instructor identify common misunderstandings
 Categorize work based on question or concept 
 
 ![](images/sbg.png){fig-align="center"}
+
 ## Why 
 
 [TAs] grading practices can shape students’ approaches to problem solving and learning [@marshman]
@@ -124,13 +168,13 @@ Note: Feedback also needs to be on time!
 
 Question on Simulation: *In as much detail as possible, DESCRIBE the simulation scheme for*
 
-*(a) conducting a hypothesis test for evaluating whether the average air pollution are different between the United States and Canada.*
+*(a) conducting a hypothesis test for evaluating whether the average air pollution is different between the United States and Canada.*
 
 Solution: **Take all air pollution values from US and Canada, and mix them all together. Randomly shuffle observations into new US and Canada groups of the same sizes as the original US (842) and Canada group (155). Next, take the mean air pollution for each group, and subtract them. Do this process a large amount of times to create a null distribution.**
 
-## Feedback Example{.smaller} 
+## Feedback Example (Think + Share){.smaller} 
 
-What questions may the student have after receiving this type of feedback? 
+*What questions may the student have after receiving this type of feedback?* 
 
 **Student Answer**: To determine whether the average air pollution levels are different between the US and Canada, we can conduct a hypothesis test. The first step in our process is to define our null and alternative hypothesis. We could then specifically use the simulation scheme of a bootstrap technique. This involves resampling the data and calculating the mean differences for both the US and Canada from the resampled data.
 
@@ -142,6 +186,29 @@ What questions may the student have after receiving this type of feedback?
 
 -- missing size 842 and 155 (-1)
 
+## Takeaways 
+
+-- Rubric items are useful for us, and may not be as useful for students
+
+-- When writing feedback, ask yourself "why" from the student perspective 
+
+
+## Tips 
+
+-- Gradescope has the feature to re-use typed feedback 
+
+![](images/gradescope.png){fig-align="center"}
+
+
+-- Pull up a notepad to write feedback in that can be easily used to copy-paste across assignments 
+
+## While grading 
+
+-- Challenge the rubric 
+
+-- Ask questions + communicate 
+
+
 ## Your Turn 
 
 -- Solo: Practice writing your own feedback
@@ -149,6 +216,12 @@ What questions may the student have after receiving this type of feedback?
 -- Breakout Rooms: Go over feedback written with group. What did you write? Why? What strategies did you use to come up with this type of feedback?  
 
 -- 1-2 individuals share out
+
+## Share Out 
+
+-- What did you write? 
+
+-- What strategies did you use / what were you thinking about when coming up with your feedback? 
 
 ## Things to think about 
 
@@ -181,7 +254,6 @@ How can these feedback statements be improved?
 
 - "Read the book so you can better understand this concept" 
 
-
 # In-person
 
 ## In-person 
@@ -195,6 +267,8 @@ We need to be able to clearly and effectively communicate feedback to students i
 -- Prepare students emotionally 
 
 -- Have a conversation 
+
+-- Instill a growth mindset 
 
 [@Fore]
 
@@ -224,6 +298,8 @@ We can yelp instill this mindset to our students in feedback.
 
 
 ## Wrap Up{.smaller} 
+
+-- Understand how you are grading and be able to communicate this with students
 
 -- Feedback matters... and the rubric is not enough 
 
@@ -282,11 +358,8 @@ From my experience, this is the most important part of introducing GitHub to a c
 
 -- Reach out for help with Git (Slack; Head TA; Instructor)
 
-## Suggestions & Resources 
-
 -- Students commit and push at the start of the semester, but don't use pull until group work. Introduce pull to them early 
 
--- JSON merge conflict 
 
 ## References
 
